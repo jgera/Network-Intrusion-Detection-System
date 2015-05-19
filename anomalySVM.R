@@ -1,6 +1,6 @@
 library(kernlab)
 library(caret)
-anomaly<-read.csv("file:///C:/Users/Saunil/Desktop/ISS/Project/Dataset_Anomaly.csv", na.strings=c(".", "NA", "", "?"), strip.white=TRUE, encoding="UTF-8")
+anomaly<-read.csv("LOCATION_TO_DATA_FOLDER/data/Dataset_Anomaly.csv", na.strings=c(".", "NA", "", "?"), strip.white=TRUE, encoding="UTF-8")
 aRow<-nrow(anomaly)
 aCol<-ncol(anomaly)
 
