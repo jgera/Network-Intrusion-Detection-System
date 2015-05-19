@@ -1,6 +1,6 @@
 library(kernlab)
 library(caret)
-misuse<-read.csv("file:///C:/Users/Saunil/Desktop/ISS/Project/Dataset_Misuse.csv", na.strings=c(".", "NA", "", "?"), strip.white=TRUE, encoding="UTF-8")
+misuse<-read.csv("LOCATION_TO_DATA_FOLDER/data/Dataset_Misuse.csv", na.strings=c(".", "NA", "", "?"), strip.white=TRUE, encoding="UTF-8")
 mRow<-nrow(misuse)
 mCol<-ncol(misuse)
 
