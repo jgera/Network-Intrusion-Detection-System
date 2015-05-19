@@ -3,7 +3,7 @@ This is the team project on which I had worked on at RIT(Rochester Institute of 
 Team Members:  Saunil Desai, Ravina Dandekar, Pratik Mehta
 
 # NIDS
-•	We have Designed and developed an anomaly and misuse based intrusion detection system using neural networks.
+We have Designed and developed an anomaly and misuse based intrusion detection system using neural networks.
 
 Technologies used: Java Weka and R
 
